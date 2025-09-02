@@ -1,0 +1,2 @@
+.gradual-blur-inner{height:100%;position:relative;width:100%}.gradual-blur-inner>div{-webkit-backdrop-filter:inherit;backdrop-filter:inherit}.gradual-blur{isolation:isolate}@supports not ((-webkit-backdrop-filter:blur(1px)) or (backdrop-filter:blur(1px))){.gradual-blur-inner>div{background:#0000004d;opacity:.5}}.gradual-blur-fixed{bottom:0;left:0;pointer-events:none;position:fixed!important;right:0;top:0;z-index:1000}
+/*# sourceMappingURL=main.b05e8bea.css.map*/
