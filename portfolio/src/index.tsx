@@ -112,7 +112,7 @@ const App = () => {
                 <section id="hero">
                     <div className="hero-text">
                         <h1>Hi :) I'm Veditha</h1>
-                        <p>a 20 year old exploring life</p>
+                        <h2>website under construction</h2>
                         <div className="social-links">
                             <a href="https://www.linkedin.com/in/veditharv/" target="_blank" aria-label="LinkedIn Profile">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
@@ -164,13 +164,13 @@ const App = () => {
                     name: "Quiz Master",
                     img: "https://raw.githubusercontent.com/23f3004007/quiz-master/main/quizmaster-preview.png",
                     desc: "A Flask-based e-learning platform for quiz management and assessment across multiple subjects.",
-                    link: "https://github.com/23f3004007/quiz-master"
+                    link: "https://github.com/23f3004007/quiz-master-v1"
                 },
                 {
                     name: "Parking Management System",
                     img: "https://raw.githubusercontent.com/23f3004007/parking-management/main/parking-preview.png",
                     desc: "A Flask-based multi-user web application for managing parking lots, spots, and reservations.",
-                    link: "https://github.com/23f3004007/parking-management"
+                    link: "https://github.com/23f3004007/vehicle-parking-app-v1"
                 },
                 // Add more projects here
             ].map((project, idx) => (
@@ -195,7 +195,7 @@ const App = () => {
                     name: "Parking Management System",
                     img: "https://raw.githubusercontent.com/23f3004007/parking-management/main/parking-preview.png",
                     desc: "A Flask-based multi-user web application for managing parking lots, spots, and reservations.",
-                    link: "https://github.com/23f3004007/vehicle-parking-v1"
+                    link: "https://github.com/23f3004007/vehicle-parking-app-v1"
                 },
                 // Add more projects here
             ].map((project, idx) => (
