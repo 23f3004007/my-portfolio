@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+.projects-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.projects-carousel {
+    width: 100vw;
+    max-width: 100vw;
+    overflow: hidden;
+    position: relative;
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 2rem;
+    animation: scroll-horizontal 18s linear infinite;
+    will-change: transform;
+    /* Add this line for fallback: */
+    --scroll-width: 1200px;
+}
+
+.project-card {
+  flex: 0 0 300px;
+  margin: 0 20px;
+  transition: transform 0.3s ease;
+}
+
+@keyframes scroll-horizontal {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-1 * var(--scroll-width))); }
+}
+
+/* Pause on hover */
+.projects-carousel:hover .carousel-track {
+  animation-play-state: paused;
+}
+
+/* Smooth transition when animation restarts */
+.carousel-track {
+  animation-timing-function: linear;
+  will-change: transform;
+}
